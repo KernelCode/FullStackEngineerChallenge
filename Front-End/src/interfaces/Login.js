@@ -23,7 +23,7 @@ export default  function Login(props) {
       
     }else{
       props.setUser(res.data);
-      history.push("/employees");
+      history.push("/employeesList");
       return;
     }
     setStillLoading(false)
