@@ -1,0 +1,38 @@
+.tag-card{
+  width: fit-content;
+  float: left;
+  margin: 4px;
+  background: #FF5722;
+  font-size: 12px;
+  border-radius: 14px;
+  position: relative;
+  margin-left:10px;
+  overflow: hidden;
+}
+.tag-card input{
+  padding-left: 25px;
+  padding-right: 25px;
+  padding: 7px;
+  border: none;
+  background:none;
+  color:rgb(255, 234, 228);
+  width: 108px;
+}
+.tag-card svg{
+  font-size: 15px;
+  position: absolute;
+  right: 0px;
+  top: 1px;
+  color: rgb(182, 48, 7);
+  cursor: pointer;
+  padding: 7px;
+  padding-right: 6px;
+  padding-left: 6px;
+}
+.tag-card svg:hover{
+ background: rgb(158, 45, 10);
+ color: rgb(238, 135, 104);
+}
+.tag-card .tag{
+
+}

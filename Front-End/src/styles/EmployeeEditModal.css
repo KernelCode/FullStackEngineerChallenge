@@ -1,0 +1,199 @@
+
+    
+.Modal-admin{
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  border: 1px solid #aaa;
+  background: #fff;
+  z-index: 99999;
+  border-radius: 25px;
+  width: 346px;
+}
+
+.Modal-admin .header{
+  background: linear-gradient(35deg, rgb(245, 105, 105) 0%, rgb(62, 14, 207) 100%);
+  padding: 10px;
+  color: #fff;
+}
+.Modal-admin .body{
+
+  padding: 10px;
+ 
+}
+.Modal-admin .body img{
+  width: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid #e2e2e2;
+  margin-left: 33%;
+}
+.Modal-admin .body input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #999;
+  opacity: 1; /* Firefox */
+}
+
+.Modal-admin .footer{
+
+  padding: 10px;
+ 
+}
+
+
+.Modal-admin .input{
+  width: 92%;
+  border: none;
+  display: block;
+  margin: auto;
+  padding: 9px;
+  position: relative;
+
+}
+.Modal-admin .input input{
+  width: 84%;
+  border: none;
+  height: 40px;
+  position: relative;
+  border-radius: 20px;
+  padding-left: 45px;
+  background: #e2e2e2;
+  background: linear-gradient(to right, rgb(239, 239, 239) 0%, rgb(222, 222, 222) 100%);
+  font-weight: bold;
+  font-family: 'Baloo Thambi 2';
+  color: #636363;
+  font-size: 12px;
+  z-index: 1;
+}
+
+.Modal-admin .input> svg{
+  position: absolute;
+  left: 26px;
+  top: 22px;
+
+  color: #a9a9a9;
+  font-size: 14px;
+  transition: all 0.4s ease;
+  z-index: 9999;
+}
+.Modal-admin .input:focus-within > svg{
+  font-size: 15px;
+}
+.Modal-admin button{
+  width: 100%;
+  border: none;
+  height: 32px;
+  position: relative;
+  border-radius: 20px;
+  background: #19fd4a;
+  transition: all 0.4s ease;
+  font-family: 'Baloo Thambi 2';
+  color: #41a71d;
+  font-size: 16px;
+  margin-top: 6%;
+  cursor: pointer;
+}
+.Modal-admin button:hover{
+  background: #078823;
+  color: #60e430;
+}
+
+.css-1pahdxg-control,.css-yk16xz-control{
+  border: none;
+  height: 40px;
+  position: relative;
+  border-radius: 20px;
+  padding-left: 45px;
+  background: #e2e2e2;
+  background: linear-gradient(to right, rgb(239, 239, 239) 0%, rgb(222, 222, 222) 100%);
+  font-weight: bold;
+  font-family: 'Baloo Thambi 2';
+  color: #636363;
+  font-size: 12px;
+}
+.css-g1d714-ValueContainer{
+  height: 100%;
+  padding: 0px;
+  text-align: center;
+
+  margin-top: 5px;
+}
+.Modal-admin .warnning-message{
+  
+  font-size: 13px;
+  background: #ffc23f;
+  border-radius: 6px;
+  position: relative;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding-right: 25px;
+  padding-left: 20px;
+  margin: auto;
+  width: 81%;
+  border-radius: 20px;
+  margin-top: 5px;
+
+
+}
+.Modal-admin .warnning-message svg{
+float: right;
+position: absolute;
+right: 4px;
+top: 4px;
+color:#9e700c;
+}
+.Modal-admin .error-message{
+
+font-size: 13px;
+background: #ff3f3f;
+color:#fff;
+border-radius: 6px;
+position: relative;
+width: -moz-fit-content;
+width: fit-content;
+padding-right: 25px;
+padding-left: 20px;
+margin: auto;
+width: 81%;
+border-radius: 20px;
+margin-top: 5px;
+
+
+}
+.Modal-admin .error-message svg{
+float: right;
+position: absolute;
+right: 4px;
+top: 4px;
+color:#9e0c0c
+}
+
+.ReactModal__Overlay.ReactModal__Overlay--after-open{
+  z-index: 9999;
+}
+
+.multi .css-1rhbuit-multiValue{
+  background: #FF5722;
+  border-radius: 9px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #892c13;
+}
+.multi  .css-12jo7m5{
+  color:#fff;
+}
+.multi .css-yk16xz-control{
+  height: auto;
+}
+.multi .css-1pahdxg-control{
+  height: auto;
+}
+
+.multi .css-2b097c-container{
+  width: 93%;
+  margin-left: 11px;
+  margin-top: 10px;
+}

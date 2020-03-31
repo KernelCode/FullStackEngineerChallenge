@@ -1,0 +1,23 @@
+{
+  "name": "fullstack.paypay.test",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": "https://github.com/KernelCode/FullStackEngineerChallenge",
+  "author": "AbdullahAltahery",
+  "license": "MIT",
+  "dependencies": {
+    "connect-busboy": "^0.0.2",
+    "cookie-parser": "^1.4.5",
+    "cookie-session": "^1.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "expressjs": "^1.0.1",
+    "faker": "^4.1.0",
+    "helmet": "^3.22.0",
+    "md5": "^2.2.1",
+    "memorystore": "^1.6.2",
+    "sequelize": "^5.21.5",
+    "sqlite3": "^4.1.1"
+  }
+}

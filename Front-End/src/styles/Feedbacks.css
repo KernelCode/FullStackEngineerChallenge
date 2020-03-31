@@ -1,0 +1,76 @@
+.feedbacks{
+  position: relative;
+  
+}
+
+.feedbacks .feed{
+  position: relative;
+  display: flow-root;
+  margin-bottom: 70px;
+}
+
+.feedbacks .feed .empCard{
+  background: #dbdbdb;
+  width: 115px;
+  float: right;
+  padding: 10px;
+  border-radius: 121px;
+  position: relative;
+  height: 115px;
+}
+
+
+.feedbacks .feed .empCard .name{
+  font-size: 16px
+}
+.feedbacks .feed .empCard img{
+  width: 97px;
+  margin-top: -16px;
+}
+
+.feedbacks .feed .feedText{
+  font-size: 15px;
+  background: #dbdbdb;
+  height: 104px;
+  position: absolute;
+  width: 65%;
+  right: 149px;
+  top: 37px;
+  padding: 20px;
+  text-align: right;
+  border-radius: 20px;
+  background: linear-gradient(to right, rgb(239, 239, 239) 0%, rgb(222, 222, 222) 100%);
+    border: 2px solid #d8d8d8;
+}
+
+.bigNo{
+  font-size: 100px;
+    color: #ddd;
+    font-weight: bold;
+}
+
+.feedbacks  textarea{
+  background: #e5e5e5;
+  width: 88%;
+  height: 200px;
+  margin: auto;
+  border-radius: 23px;
+  border: none;
+  padding:20px;
+}
+
+.feedbacks  .box{
+  width: 50%;
+  border: none;
+  height: 46px;
+  position: relative;
+  border-radius: 20px;
+  background: #19fd4a;
+  transition: all 0.4s ease;
+  font-family: 'Baloo Thambi 2';
+  color: #38891c;
+  font-size: 16px;
+  margin-top: 1%;
+  cursor: pointer;
+  font-weight: bold;
+}

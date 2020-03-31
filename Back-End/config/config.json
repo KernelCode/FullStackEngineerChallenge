@@ -1,0 +1,8 @@
+{
+  "database":{
+    "databasename":"fullstackchalling",
+    "database_filename":"emps.sqlite",
+    "username":"",
+    "password":""
+  }
+}

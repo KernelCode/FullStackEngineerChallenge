@@ -1,0 +1,134 @@
+html,body{
+  background:#fff;
+  font-size:20px;
+  color:#000;
+  line-height: 1.6;
+  text-overflow: ellipsis;
+  white-space: normal;
+  word-break: break-all;
+  margin: 0; 
+  padding: 0; 
+  border: 0;   
+  font-family: 'Baloo Thambi 2',"Lucida Grande", "Lucida Sans", Tahoma, Verdana, sans-serif; 
+  font-weight: 100;
+  background: rgb(39, 71, 196);
+  background: linear-gradient(35deg, rgb(20, 195, 129) 0%, rgb(14, 48, 207) 100%);
+  height: 100vh;
+}
+
+.wrapper {  
+    width:70%;  
+    margin: auto;
+    text-align: center;
+}
+
+.left-menu{
+  height: 100vh;
+  width: 220px;
+  background: rgb(39, 71, 196);
+  background: linear-gradient(35deg, rgb(20, 195, 129) 0%, rgb(14, 48, 207) 100%);
+  float: left;
+  position: fixed;
+
+}
+.right-menu{
+  /*height: 100vh;*/
+  transition: all 0.5s ease;
+  position: relative;
+  margin-left: 220px;
+  
+  /*    margin-left: 40px;*/
+  background: #fff;
+  background: linear-gradient(35deg, rgb(255, 255, 255) 0%, rgb(246, 246, 246) 100%);
+  padding: 10px;
+  padding-bottom:200px;
+}
+.msg.info{
+  font-size: 13px;
+  background: rgb(0, 140, 255);
+  position: relative;
+  margin: auto;
+  border-radius: 20px;
+  padding: 5px;
+  color: #fff;
+}
+.msg.info svg{
+  float: right;
+  position: absolute;
+  right: 10px;
+  top: 8px;
+  color: rgb(10, 93, 161);
+  font-size: 15px;
+}
+.msg.warn{
+  font-size: 13px;
+  background: #FF9800;
+  position: relative;
+  margin: auto;
+  border-radius: 20px;
+  padding: 10px;
+  color: #fff;
+}
+.msg.warn svg{
+  float: right;
+  position: absolute;
+  right: 3%;
+  top: 33%;
+  color: #9e700c;
+  font-size: 15px;
+}
+/* unvisited link */
+a{
+  color:inherit;
+  text-decoration: blink;
+}
+
+/* visited link */
+a:visited {
+  color:inherit;
+}
+
+/* mouse over link */
+a:hover {
+  color:inherit;
+}
+
+/* selected link */
+a:active {
+  color:inherit;
+}
+h2{
+  padding-left: 11px;
+  font-size: 29pt;
+  position: relative;
+  width: fit-content;
+  color: #525252;
+  z-index: 1;
+  position: relative;
+}
+h2 span{
+  position: relative;
+  z-index:1;
+}
+h2:after{
+  content: "";
+  padding-left: 11px;
+  font-size: 29pt;
+
+  width: 95%;
+  height: 17px;
+  position: absolute;
+  left: 6px;
+  background: #b4ffa6;
+  top: 32px;
+  z-index: 0;
+  transform: rotate(-1deg);
+}
+@media only screen and (max-width: 900px) {
+  .wrapper {  
+    width: 100%;
+  }
+  .right-menu{
+    margin-left:40px;
+  }
+}

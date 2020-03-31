@@ -1,0 +1,125 @@
+.emp{
+  text-align: center;
+  position: relative;
+  border-bottom: 1px solid #073a4042;
+  padding-bottom: 14px;
+}
+.emp img{
+  width: 70px;
+  border-radius: 50%;
+  filter: hue-rotate(-53deg);
+  margin-top: 25px;
+  box-shadow: 0px 0px 34px #d6ddff;
+}
+
+.emp .name{
+  color: #fff;
+  font-size: 16px;
+}
+
+.emp .level{
+  font-size: 10px;
+  background: #dd2e68;
+
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 3px;
+  color: #fff;
+  top: 0px;
+  right: 0px;
+  width: fit-content;
+  margin: auto;
+}
+
+.leftMenu .logout{
+  position: absolute;
+  right: 0px;
+  padding: 9px;
+  margin: 5px;
+  padding-top: 8px;
+  color: #fff;
+  height: 15px;
+  width: 15px;
+  transition: all 0.2s ease;
+  border-radius: 35px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 15px;
+  z-index: 2;
+}
+.leftMenu .logout:hover{
+  color: #3f2edd;
+  background: white;
+}
+.mnu{
+
+}
+.mnu .item{
+  padding: 10px;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border-bottom: 1px solid #073a4042;
+}
+.mnu .item:hover{
+  color: #3f2edd;
+  background: white;
+}
+.mnu .title .icon{
+  float: left;
+  margin-left: 11px;
+  margin-top: 5px;
+  font-size: 13px;
+}
+.leftMenu .bottomtext{
+  bottom: 0px;
+  position: absolute;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  width: 100%;
+}
+.mnu .item .selected{
+  width: 16px;
+  height: 16px;
+  background: white;
+  position: absolute;
+  right: -8px;
+  transform: rotate(45deg);
+  margin-top: 6px;
+}
+@media only screen and (max-width: 900px) {
+  .mnu .item .selected{
+    margin-top: 5px;
+    left: 36px;
+    right: 0px;
+  }
+  .emp{
+    padding-bottom: 50px;
+  }
+  .emp img{
+    width: 25px;
+    left: 0px;
+    float: left;
+    margin-left: 6px;
+    margin-top: 45px;
+  }
+  .leftMenu .logout{
+    left:-2px;
+  }
+  .leftMenu .bottomtext{
+    transform: rotate(90deg);
+    width: 138px;
+    position: absolute;
+    left: -51px;
+    bottom: 61px;
+  }
+  .mnu .title .icon{
+    float: left;
+    margin-left: 4px;
+    margin-top: 8px;
+    font-size: 13px;
+  }
+}

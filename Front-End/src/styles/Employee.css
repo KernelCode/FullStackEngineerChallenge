@@ -1,0 +1,48 @@
+.emp-card{
+  text-align: center;
+  float: left;
+  cursor: pointer;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 22px;
+  background: #ececec;
+  width: 200px;
+}
+.emp-card:hover{
+  background:rgb(216, 216, 216);
+}
+
+.emp-card img{
+  width: 70px;
+  border-radius: 50%;
+
+}
+.emp-card .name{
+  font-size: 13px;
+}
+.emp-card .email{
+  font-size: 12px;
+}
+
+.emp-card .level{
+  font-size: 10px;
+ 
+  display: block;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 3px;
+
+  top: 0px;
+  right: 0px;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+}
+.emp-card .level.admin{
+  background: #dd2e68;
+  color: #fff;
+}
+.emp-card .level.empl{
+  background: #482edd;
+  color: #fff;
+}

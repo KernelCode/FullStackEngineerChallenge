@@ -1,0 +1,106 @@
+.ReactTable{
+  border-radius: 28px;
+  border: none;
+  overflow: hidden;
+  font-size: 12px;
+  text-align: center;
+}
+.ReactTable .rt-thead{
+  background: linear-gradient(35deg, rgb(23, 26, 55) 0%, rgb(14, 48, 207) 100%);
+  color:#fff;
+}
+.ReactTable .action{
+  background: #ff476b;
+  padding: 5px;
+  font-size: 23px;
+  border-radius: 50%;
+  padding-left: 5px;
+  color: #fff;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.ReactTable .rt-tbody .rt-tr-group:hover{
+  background:#eee;
+}
+.ReactTable .action:hover{
+  background: rgb(179, 9, 9);
+}
+.ReactTable .level{
+  font-size: 10px;
+ 
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 3px;
+
+  top: 0px;
+  right: 0px;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+}
+.ReactTable .level.admin{
+  background: #dd2e68;
+  color: #fff;
+}
+.ReactTable .level.empl{
+  background: #482edd;
+  color: #fff;
+}
+.addEmpButton svg{
+  padding: 10px;
+    width: 20px;
+    height: 20px;
+    background: #ff476b;
+    border-radius: 100%;
+    color: #fff;
+    float: right;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.addEmpButton svg:hover{
+  background: #a1112e;
+}
+.ReactTable .-pagination .-btn{
+  border-radius: 20px;
+}
+
+.tags .newTag{
+  background: #ff476b;
+  padding: 3px;
+  border-radius: 50%;
+  float: left;
+  margin-top: 5px;
+  margin-left: 9px;
+  width: 23px;
+  height: 24px;
+  padding-top: 4px;
+  padding-left: 5px;
+  cursor: pointer;
+  color:#fff;
+}
+.tags .newTag:hover{
+  background: #850620;
+
+}
+
+.qualityTag{
+  
+  background: #e0e0e0;
+  padding: 1px;
+  border-radius: 10px;
+  margin: 1px;
+  color: #2d2d2d;
+  padding-left: 10px;
+  padding-right: 10px;
+  float: left;
+  padding-right: 18px;
+ position: relative;
+ font-size: 12px;
+}
+
+.qualityTag svg{
+  position: absolute;
+  right: 3px;
+  top: 3px;
+}

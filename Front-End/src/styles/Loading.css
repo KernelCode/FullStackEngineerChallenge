@@ -1,0 +1,9 @@
+.loading{
+  height: 100px;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+  position: fixed;
+  top: 50%;
+  width: 100px;
+}
