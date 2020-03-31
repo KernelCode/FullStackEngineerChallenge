@@ -2,12 +2,15 @@
 ![Test Image 4](./screen2.png)
 ![Test Image 4](./screen1.png)
 
+# install : 
+  * Back End  ```cd Back-End & yarn install ```
+  * Front End ```cd Front-End & yarn install ```
 # running :
   * Back End ```cd Back-End & node app.js```
   * Front End ```cd Front-End & yarn start```
 # create fake database : 
   * ```cd Back-End & node test/faker.js```
-# defualt admin : 
+# default admin : 
   *  admin@admin.com
   *  123
 # Front-End : 
