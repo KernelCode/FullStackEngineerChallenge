@@ -3,6 +3,11 @@
 ![Screen 3](./screen1.png)
 ![Screen Modal](./modal.png)
 
+# you'll need
+  * Node  >=11
+  * yarn  >=1.22
+  * React 16.8
+  
 # install : 
   * Back End  ```cd Back-End & yarn install ```
   * Front End ```cd Front-End & yarn install ```
