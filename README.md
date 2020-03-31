@@ -14,51 +14,51 @@
   *  admin@admin.com
   *  123
 # Front-End : 
-ReactJS (Main Framework)
-React-Router 
-react-table-v6
-react-cookie
-react-loadable
-react-hook-form
-UI Styling (flexBOXGrid )
-Fetch For Networking
-react-moment
-react-toast-notifications
+* ReactJS (Main Framework)
+* React-Router 
+* react-table-v6
+* react-cookie
+* react-loadable
+* react-hook-form
+* UI Styling (flexBOXGrid )
+* Fetch For Networking
+* react-moment
+* react-toast-notifications
 
 # Back-End : 
-Nodejs Web Server
-ExpressJS for REST API
-cookie-parser,express-session (SESSIONS)
-connect-busboy (UPLOAD IMAGES)
-Squeslize (Node.js ORM)
-md5 (hashing passwords)
-Helmet (for most web vulnerabilities)
-SQLlite For Database (we can switch to mysql anytime)
+* Nodejs Web Server
+* ExpressJS for REST API
+* cookie-parser,express-session (SESSIONS)
+* connect-busboy (UPLOAD IMAGES)
+* Squeslize (Node.js ORM)
+* md5 (hashing passwords)
+* Helmet (for most web vulnerabilities)
+* SQLlite For Database (we can switch to mysql anytime)
 
 
 # Workflow : 
-27/3 - start planning and structure  the project start designing (database - User Interface - APIs)
-28/3 - start desiging (Interfaces with css/interactions/components) css styling form scratch
-29/3 - start implementing (Back-End)
-30/3 - start implementing (Front-End)
-31/3 - final edits
-1/4  - posting the project!
+* 27/3 - start planning and structure  the project start designing (database - User Interface - APIs)
+* 28/3 - start desiging (Interfaces with css/interactions/components) css styling form scratch
+* 29/3 - start implementing (Back-End)
+* 30/3 - start implementing (Front-End)
+* 31/3 - final edits
+* 1/4  - posting the project!
 
 
 
 # Uncompleted : 
-Add score to a review tag!
-Adding real testing GET/PUT/POST/DELETE and React Component testing
-Uploading Images
-Wrap some back-end functions to avoid errors when getting wrong URI
-Assigning Employees to other Employees to Post feedback (though you can post a feedback to any employee!)
-Front-End  caching
-Back-End  caching
+* Add score to a review tag!
+* Adding real testing GET/PUT/POST/DELETE and React Component testing
+* Uploading Images
+* Wrap some back-end functions to avoid errors when getting wrong URI
+* Assigning Employees to other Employees to Post feedback (though you can post a feedback to any employee!)
+* Front-End  caching
+* Back-End  caching
 
 
 # Assumptions
-feedback can't be edited .
-every review is a tag and when assigned it to an Employe ADMIN can give it a score from 1/10.
+* feedback can't be edited .
+* every review is a tag and when assigned it to an Employe ADMIN can give it a score from 1/10.
 
 
 
